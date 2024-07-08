@@ -13,7 +13,7 @@
 ```
 cf create-service p.mysql db-small mysql
 cf create-service p.service-registry standard service-registry
-cf create-service p.config-server standard config-server -c '{"git": { "uri": "https://github.com/tsalm-pivotal/spring-cloud-demo", "label": "main", "searchPaths": "config-server-configuration"} }'
+cf create-service p.config-server standard config-server -c '{"git": { "uri": "https://github.com/AnthonyQi2022/spring-cloud-demo", "label": "main", "searchPaths": "config-server-configuration"} }'
 cf create-service p.gateway standard gateway -c '{"host": "sc-gateway"}'
 cf create-service p-rabbitmq standard rabbit-mq
 cf create-service p-redis shared-vm redis
