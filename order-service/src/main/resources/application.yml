@@ -9,3 +9,8 @@ order:
   exchange-name:
   shipping-exchange-name:
   products-api-url:
+management:
+  metrics:
+    export:
+      wavefront:
+        enabled: false  
