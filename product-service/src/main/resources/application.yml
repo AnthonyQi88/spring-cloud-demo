@@ -3,3 +3,4 @@ product-service.product-names:
 eureka.instance:
     non-secure-port: 8080
     secure-port-enabled: false
+management.metrics.export.wavefront.enabled: false    
