@@ -7,3 +7,4 @@ eureka.instance:
   non-secure-port: 8080
   secure-port-enabled: false
 shipping.duration: 0
+management.metrics.export.wavefront.enabled: false
